@@ -2,7 +2,7 @@ import functools
 
 pairs = []
 
-with open(r'13\input.txt') as input:
+with open(r'14\input.txt') as input:
     for index, line in enumerate(input):
         line = line.strip()
         if index % 3 == 0:
